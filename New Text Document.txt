@@ -1,10 +1,8 @@
-﻿
-
-khi nào đi thi thì anh viết câu hỏi vào đây
+﻿khi nào đi thi thì anh viết câu hỏi vào đây
 sau đó nhắn tin trên mess cho em
 
 khi nào em nhắn lại là ok 
-thì anh gõ
+thì anh chuột phải trong folder này rồi gõ
 
 git pull origin master
 
