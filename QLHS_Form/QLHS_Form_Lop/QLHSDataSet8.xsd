@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLHSDataSet8" targetNamespace="http://tempuri.org/QLHSDataSet8.xsd" xmlns:mstns="http://tempuri.org/QLHSDataSet8.xsd" xmlns="http://tempuri.org/QLHSDataSet8.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLHSConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLHSConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLHS_Form_Lop.Properties.Settings.GlobalReference.Default.QLHSConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_namhocTableAdapter" GeneratorDataComponentClassName="view_namhocTableAdapter" Name="view_namhoc" UserDataComponentName="view_namhocTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLHSConnectionString (Settings)" DbObjectName="QLHS.dbo.view_namhoc" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT sNamHoc FROM dbo.view_namhoc</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sNamHoc" DataSetColumn="sNamHoc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLHSDataSet8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QLHSDataSet8" msprop:Generator_UserDSName="QLHSDataSet8">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_namhoc" msprop:Generator_TableClassName="view_namhocDataTable" msprop:Generator_TableVarName="tableview_namhoc" msprop:Generator_TablePropName="view_namhoc" msprop:Generator_RowDeletingName="view_namhocRowDeleting" msprop:Generator_RowChangingName="view_namhocRowChanging" msprop:Generator_RowEvHandlerName="view_namhocRowChangeEventHandler" msprop:Generator_RowDeletedName="view_namhocRowDeleted" msprop:Generator_UserTableName="view_namhoc" msprop:Generator_RowChangedName="view_namhocRowChanged" msprop:Generator_RowEvArgName="view_namhocRowChangeEvent" msprop:Generator_RowClassName="view_namhocRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sNamHoc" msprop:Generator_ColumnVarNameInTable="columnsNamHoc" msprop:Generator_ColumnPropNameInRow="sNamHoc" msprop:Generator_ColumnPropNameInTable="sNamHocColumn" msprop:Generator_UserColumnName="sNamHoc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

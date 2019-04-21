@@ -1,0 +1,11 @@
+﻿
+
+khi nào đi thi thì anh viết câu hỏi vào đây
+sau đó nhắn tin trên mess cho em
+
+khi nào em nhắn lại là ok 
+thì anh gõ
+
+git pull origin master
+
+để lấy code về. dễ như ăn bánh :D

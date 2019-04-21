@@ -1,0 +1,5 @@
+c:\users\toan\documents\visual studio 2013\Projects\QLHS_Form_Lop\QLHS_Form_Lop\bin\Debug\QLHS_Form_Lop.exe.config
+c:\users\toan\documents\visual studio 2013\Projects\QLHS_Form_Lop\QLHS_Form_Lop\obj\Debug\QLHS_Form_Lop.csprojResolveAssemblyReference.cache
+c:\users\toan\documents\visual studio 2013\Projects\QLHS_Form_Lop\QLHS_Form_Lop\obj\Debug\QLHS_Form_Lop.Form1.resources
+c:\users\toan\documents\visual studio 2013\Projects\QLHS_Form_Lop\QLHS_Form_Lop\obj\Debug\QLHS_Form_Lop.Properties.Resources.resources
+c:\users\toan\documents\visual studio 2013\Projects\QLHS_Form_Lop\QLHS_Form_Lop\obj\Debug\QLHS_Form_Lop.csproj.GenerateResource.Cache
